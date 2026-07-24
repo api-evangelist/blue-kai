@@ -1,7 +1,25 @@
 aid: blue-kai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-kai.png
 name: Blue Kai
-description: Blue Kai is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Blue Kai (BlueKai) was a cloud-based big-data and data management platform
+  (DMP) for audience, marketing, and advertising data, founded in 2008 and backed by
+  Battery Ventures. Oracle acquired BlueKai in 2014 and folded it into Oracle Data Cloud
+  / Oracle Advertising; the bluekai.com domain now 301-redirects to oracle.com (verified
+  2026-07-18, HTTP 403 at www.oracle.com). No independent Blue Kai developer portal, API,
+  OpenAPI, documentation, changelog, or event surface remains, so no live provider API
+  artifacts can be enriched. This record is retained as an acquired-company / VC-portfolio
+  node rather than an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/blue-kai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: oracle
+x-acquired-year: 2014
+x-domain-redirect: https://www.oracle.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Management Platform
+- Audience Data
+- AdTech
+- MarTech
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
